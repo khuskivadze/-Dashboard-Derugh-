@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --Grey:#84878B;
+    --BlackPrimery : #2C2E32;
+    --PrimeryBlue: #0C99FF;
+    --ItemBlue: #01517E;
+    --StatusBack :#DBF3E6;
+    --StatusColor: #6ECF9D;
+    --DarkGrenn:#3E875E;
+    --PriorityBack : #FFCCCC;
+    --PriorityColor: #B82F26;
+    --PaymentBack :#D7F0FF;
+    --PaymentColor:#2695B8;
+    --AssetsBack:#FFF4CC;
+    --AssetsColor :#B6900A;
+    --lightRed: #FF6A77;
+    --Yellow: #FFD66B;
+    --Orange:#FF8F6B;
+    --Danger: #D11A2A;
+    --blueBtn : #26C0E2;
+    --Primary: #605BFF;
+    --InputBack: #F7F7F8;
+
+
+    
+
+}
