@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+body{
+    background-color: #262643;
+    max-width: 2000px;
+    height: 100vh;
+    overflow: hidden;
+    font-family: system-ui;
+    color: white;
+}
+:root {
+    --Grey:#84878B;
+    --BlackPrimery : #2C2E32;
+    --PrimeryBlue: #0C99FF;
+    --ItemBlue: #01517E;
+    --StatusBack :#DBF3E6;
+    --StatusColor: #6ECF9D;
+    --DarkGrenn:#3E875E;
+    --PriorityBack : #FFCCCC;
+    --PriorityColor: #B82F26;
+    --PaymentBack :#D7F0FF;
+    --PaymentColor:#2695B8;
+    --AssetsBack:#FFF4CC;
+    --AssetsColor :#B6900A;
+    --lightRed: #FF6A77;
+    --Yellow: #FFD66B;
+    --Orange:#FF8F6B;
+    --Danger: #D11A2A;
+    --blueBtn : #26C0E2;
+    --Primary: #605BFF;
+    --InputBack: #F7F7F8;
+}
+.header {
+    display: flex;
+  
+    width: 80%;
+    height: 90px;
+    margin: 0 10%;
+    background-color: #6d6dd326;
+    border-radius: 15px;
+    align-items: center;
+}
+.header  h1{
+    font-size: 20px;
+    font-weight: 200;
+}
+.logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    width: 70%;
+    color: #eee;
+    display: flex;
+    justify-content: right;
+}
+.navbar .menu {
+    width: 65%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.navbar .listItem {
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: var(--lightRed);
+    border: none;
+    border-radius: 20px;
+}
+.main {
+    width: 80%;
+    height: 100%;
+   
+    margin: 0 10%;
+    display: flex;
+   
+   
+}
+main .main_title{
+    width: 40%;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+main .main_title h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+main .main_title p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main_btn {
+    width: 150px;
+    height: 40px;
+    background-color: var(--lightRed);
+    border: none;
+    border-radius: 20px
+}
+
+main .main_Cover {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 5%;
+}
+main .main_Cover img{
+   
+     transform: skew(-15deg);
+     
+
+    
+}
