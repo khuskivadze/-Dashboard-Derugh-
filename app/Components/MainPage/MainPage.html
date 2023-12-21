@@ -6,15 +6,20 @@
     <title>Derugh EMS Dashboard Pages</title>
     <link rel="stylesheet" href="../Css/globals.css">
     <link rel="stylesheet" href="../MainPage/Main.css">
+    <link rel="stylesheet" href="../MainPage/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
      
 </head>
 <body>
 
-    <header class="header">
+    <header class="header" id="headerMenu">
         <div class="logo">
             <h1>Dashboard</h1>
         </div>
         <nav class="navbar" id="navbar">
+            <button id="close">
+                <i class="bi bi-x "></i>
+            </button>
             <ul class="menu">
                 <li class="listItem"><a href="#">Home</a></li>
                 <li class="listItem"><a href="#">About</a></li>
@@ -22,10 +27,16 @@
                 <li class="listItem"><a href="#">Pricing</a></li>
                 <li class="listItem"><a href="#">Contacts</a></li>
             </ul>
+            <button class="menu_btn">
+                <a href="#">Get Started</a>
+            </button>
         </nav>
         <button class="btn">
             <a href="#">Get Started</a>
         </button>
+         <button id="burger">
+            <i class="bi bi-list"  ></i>
+         </button>
 
     </header>
     <main class="main" id="main">
@@ -42,6 +53,10 @@
 
     </main>
 
+
+
+
+    <script src="../MainPage/index.js"></script>
 
     
 </body>

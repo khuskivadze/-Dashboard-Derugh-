@@ -38,6 +38,7 @@ body{
     background-color: #6d6dd326;
     border-radius: 15px;
     align-items: center;
+     
 }
 .header  h1{
     font-size: 20px;
@@ -54,7 +55,9 @@ body{
     color: #eee;
     display: flex;
     justify-content: right;
+   
 }
+  
 .navbar .menu {
     width: 65%;
     text-align: center;
@@ -67,6 +70,10 @@ body{
     position: relative;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+ .menu_btn{
+ display: none;
 }
 
 .btn{
@@ -128,10 +135,10 @@ main .main_Cover {
   
     margin-top: 5%;
 }
-main .main_Cover img{
-   
-     transform: skew(-15deg);
-     
-
-    
+ 
+#close {
+    display: none;
+}
+#burger{
+    display: none;
 }
