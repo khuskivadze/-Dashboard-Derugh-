@@ -82,6 +82,11 @@ body{
     background-color: var(--lightRed);
     border: none;
     border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+
+}
+.btn:hover{
+    background-color: var(--DarkGrenn);
 }
 .main {
     width: 80%;
@@ -141,4 +146,124 @@ main .main_Cover {
 }
 #burger{
     display: none;
+}
+
+
+
+
+.log-in{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #c7c7ff6d;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: all 0.5s ease-in-out;
+
+}
+.log-inShow {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #c7c7ff6d;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+
+}
+ 
+.log-forms {
+    width: 600px;
+    height: 600px;
+    background-color: #262643;
+    position: fixed;
+    border-radius: 10px;
+}
+#close_log{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-color: var(--lightRed);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 90%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+  
+
+}
+#close_log i {
+   width: 100%;
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+#close_log:hover{
+   background-color: var(--Grey);
+}
+
+.forms{
+    width: 90%;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    line-height: 3;
+    margin: 2% auto;
+    
+}
+.forms label {
+    font-size: 14px;
+    color: var(--Primary);
+}
+.forms  input {
+    width: 400px;
+    height: 40px;
+    background-color: #262643;
+    border: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.forms  input::placeholder{
+    padding-left: 20px;
+    letter-spacing: 1px;
+     font-size: 10px;
+}
+.forms .logButtin{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: var(--lightRed);
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+.info_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  height: 40px;
+  margin: auto;
+  border-bottom: 1px solid white;
+}
+.info_btn span{
+    color: var(--PrimeryBlue);
+   
 }
