@@ -1,0 +1,20 @@
+@media  screen  and (max-width:2000px)  {
+    .Home_container {
+        width: 100%;
+        height: auto;
+    }
+    .left_side{
+        width: 350px;
+    }
+    .center {
+        margin: 0 auto;
+       
+    }
+    .lists_items {
+        padding-left: 20px !important;
+    }
+
+    
+    
+
+}
