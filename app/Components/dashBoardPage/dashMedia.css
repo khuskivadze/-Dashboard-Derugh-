@@ -1,1 +1,42 @@
- 
+@media (max-width: 1470px) {
+    
+    .Home_container{
+       
+        width: 100%;
+        
+    }
+    .left_side {
+        width: 300px;
+    }
+    .left_logo  {
+        width: 100%;
+        height: 100px;
+        
+    }
+    .categories {
+        width: 300px;
+    }
+    .active{
+        width: 100% !important;
+    }
+     
+    .list_item {
+        width: 100%;
+    }
+    .center {
+        width: 100%;
+        overflow: hidden;
+    }
+    .center_top {
+        width: 95%;
+        margin: 0 auto;
+        height: 155px ;
+    }
+    .center_content {
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+     
+    
+}

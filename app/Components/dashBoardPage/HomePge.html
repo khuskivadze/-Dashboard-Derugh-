@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
-  
-   
-    <!-- <link rel="stylesheet" href="../MainPage/media.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  
+    <link rel="stylesheet" href="../dashBoardPage/Home.css">
+    
+    
+   
     <link rel="stylesheet" href="../dashBoardPage/dashMedia.css">
-   <link rel="stylesheet" href="../dashBoardPage/Home.css">
    
   
 
 </head>
 <body>
 
-    <section class="Contianer">
+  
         <section class="Home_container">
 
             <aside class="left_side">
@@ -106,7 +107,59 @@
                 <section class="center_content">
                     <div class="center_box">
                         <div class="box">
-                            <div class="box-1">A</div>
+                            <div class="box-1 " id="wheather">
+                                <div class="welcome"> 
+                                    <h1>welcome,<span>Tamar</span></h1>
+                                    <p>You can check a quick weather  
+                                        for <span>Tbilisi</span> today. 
+                                        Hope you're having a great day 🖐️
+                                    </p>
+                                     
+
+                                </div>
+                               <div class="container">
+                                  <div class="search_box">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <input type="text" placeholder="Enter your location">
+                                    <button class="bi bi-search"></button>
+
+                                  </div>
+                                  <div class="weather-box">
+                                    <div class="box">
+                                        <div class="info-weather">
+                                            <div class="weather">
+                                                <img src="/Assets/default.png" alt="">
+                                                <p class="temperature"> 0 <span>°C</span></p>
+                                                <p class="description">Broken Clouds</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="weather-detalis">
+                                    <div class="humidity">
+                                        <i class="bi bi-water"></i>
+                                        <div class="text">
+                                            <div class="info-humidity">
+                                                <span>0%</span>
+                                            </div>
+                                            <p>Humidyty</p>
+                                        </div>
+                                    </div>
+                                    <div class="wind">
+                                        <i class="bi bi-wind"></i>
+                                        <div class="text">
+                                            <div class="info-humidity">
+                                                <span>0km/h</span>
+                                            </div>
+                                            <p>Wind Speed</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                               </div>
+
+
+                            </div>
+
                             <div class="box-2">B</div>
                         </div>
                          
@@ -120,9 +173,14 @@
                         f
                     </aside>
                 </section>
-          </section>  
+            </section>  
         </section>
-    </section>
+
+
+
+
+        <script src="../dashBoardPage/index.js"></script>
+    
     
 </body>
 </html>

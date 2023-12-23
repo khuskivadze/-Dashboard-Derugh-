@@ -30,15 +30,13 @@
     text-decoration: none;
     list-style: none;
 }
-.Contianer {
-    max-width: 2000px;
-    height: auto;
-}
+ 
 .Home_container{ 
-    width: 100%;
+    max-width: 2000px;  
     height: 1065px;
     background-color: rgb(255, 255, 255);
     display: flex;
+    align-items: center;
     
 }
 .left_side {
@@ -161,242 +159,441 @@
     box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.67);
 
 }
+ 
 .center {
     width: 1378px;
-    height: 1000px;
- 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
+    height: 968.89px;
+    
+    margin: 0 auto;
 }
-.center_top{
+.center_top {
     width: 100%;
-    height: 150px;
-   
+    height: 197.89px ;
+    font-family: 'Poppins', sans-serif;
+    
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 3.9%;
-     
+    gap: 20px;
 }
-.center_top .title{
+.center .title  {
     width: 100%;
     height: 24px;
-    padding-left: 10px;
-   
+    display: flex;
+  
+  
+    align-items: center;
+
 }
-.center_top .title p{
-    font-size: 18.5px;
+.center .title   p {
+    font-size: 16px;
     color: var(--BlackPrimery);
     font-family: 'Poppins', sans-serif;
-
 }
-.center_top .title span {
-    text-transform: uppercase;
-    font-size: 18.5px;
+.center .title span{
+    font-size: 16px;
     color: var(--ItemBlue);
     font-family: 'Poppins', sans-serif;
-
 }
-.center_top .profile {
+.profile {
     width: 100%;
-    height: 91.89px;
-  
+    height: 173px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 20px;
      
 }
-.profile .profile_top {
+.profile_top {
     width: 100%;
     height: 46.89px;
-   
+    
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 .profile_top .name {
     width: 150px;
-    height: 25px;
-    
-}
-.profile_top .name  p {
-    font-size: 30px;
-    color: #455A64;
-    display: flex;
-    align-items: center;
-   justify-content: center;
-   font-family: 'Poppins', sans-serif;
-
-   gap: 10px;
-} 
-.profile_top .name  span{
-    font-size: 30px;
-    color: var(--BlackPrimery);
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.profile_top .search {
-    width: 499px;
-    height: 45px;
-    background-color: #EBF7FF;
-    display: flex;
-    align-items: center;
-    border-radius: 53px;
-    margin-top: 15px;
-
-}
-.profile_top .search  i {
-    width: 50px;
-    height: 50px;
+    height: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.profile_top .search  input {
-    width: 450px;
-    height: 100%;
-    background-color: transparent;
-    border: none;
-}
-.search input::placeholder{
-    font-size: 15px;
-    color: #A2A4A9;
-}
-
-.center_acount {
-    width: 350px;
-    height: 46.89px;
+.profile_top .name  p {
+    font-size: 34px;
+    color: var(--spanColor);
+    font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-.center_acount .top_btn{
-    width: 176px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    background-color: #6DC2FF;
     gap: 10px;
-    border: none;
-    border-radius: 53px;
-    text-align: center;
-    padding-left: 10px;
-    margin-top: 15px;
-    cursor: pointer;
+
 
 }
-.center_acount .account {
-    width: 240px;
+.profile_top .name  span {
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--BlackPrimery);
+
+}
+.search {
+    width: 499px;
+    height: 45px;
+    display: flex;
+    background-color: #EBF7FF;
+    display: flex;
+  
+    align-items: center;
+    border-radius: 53px;
+    gap: 20px;
+     
+}
+.search  i{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.search  input {
+    width: 475px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border-radius: 53px;
+}
+.center_acount {
+    width: 390.96px;
     height: 46.89px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+.center_acount .top_btn {
+    width: 176px;
+    height: 45px;
+    background-color: var(--PrimeryBlue);
+    border-radius: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: none;
+}
+.center_acount .top_btn  i  {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.center_acount .top_btn span{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+.account{
+    width: 183.96px;
+    height: 46,89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    margin-top: 15px;
+    color: var(--PrimeryBlue);
+    
+}
+.account i {
+    color: var(--spanColor);
+    font-size: 20px;
+}
+.account p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
 
 }
-.center_acount .account  i {
-    font-size: 19px;
-    cursor: pointer;
-}
-.center_acount .account  p{
-    color: #2C2E32;
-    font-size: 17px;
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-
-.profile .profile_bottom {
+.profile_bottom {
     width: 100%;
     height: 37px;
-   padding-left: 10px;
-    display: flex;
-    align-items: center;
+    
+
 }
-.profile .profile_bottom  span{
+.profile_bottom span {
     font-size: 24px;
-    font-family: 'Poppins', sans-serif;
     color: var(--spanColor);
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
 
+
 }
 
-
-
-
+ 
+ 
 .center_content {
     width: 100%;
-    height: 100%;
+    height: 771px;
     
     display: flex;
     gap: 10px;
 }
-.center_box {
+.center_content .center_box {
     width: 75%;
-    
+    height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 31px;
+     
 }
-.box {
+.center_box .box {
     width: 100%;
     display: flex;
-    gap: 10px;
-    
-}
-.box-1 {
-    width: 500px;
-    height: 280px;
-    background-color: var(--cardColor);
+    align-items: center;
+    gap: 20px;
 }
 
-.box-2 {
-    width: 500px;
+.box-1 {
+    width: 600px;
     height: 280px;
-    background-color: var(--cardColor);
+    background-color:var(--cardColor) ;
+    border: 1px solid var(--BlackPrimery);
+    display: flex; 
+}
+.welcome {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    justify-content: center;
+}
+.welcome  h1{
+    font-size: 29.3px;
+    color: var(--BlackPrimery);
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
+    font-weight: 400;
+    gap: 10px;
+    display: flex;
+
+
+}
+.welcome  h1 span{
+    font-size: 29.3px;
+    color: var(--PaymentColor);
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+.welcome  p {
+    font-size: 15.65px;
+    color: var(--ItemBlue);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 100%;
+    background-color: rgba( 12, 153, 225, .4);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba( 255, 255, 225, .2);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    font-family: 'Poppins', sans-serif;
+
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.search_box{
+    position: relative;
+    width: 100%;
+    height: 40px;
+ 
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.search_box input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid var(--PaymentBack);
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    
+    text-transform: uppercase;
+    padding: 0 48px 0 42px;
+}
+.search_box input::placeholder {
+    color: rgb(255, 255, 255) ;
+    text-transform: capitalize;
+
+}
+.search_box i {
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+
+
+}
+.search_box button {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 100px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 0 40px 0 5px;
+    cursor: pointer;
+}
+.weather-box {
+    width: 100%;
+    text-align: center;
+    margin: 2% 35%;
+   
+}
+
+.weather-box img{
+    width: 60px;
+}
+.weather-box .temperature {
+    position: relative;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+    margin: 20px 0 6px -20px;
+
+}
+.weather-box .temperature  span{
+     position: absolute;
+     font-size: 16px;
+     margin-left: 4px;
+}
+.weather-box .description {
+   font-size: 14px;
+   font-weight: 500;
+   text-transform: capitalize;
+}
+.weather-detalis {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10%;
+
+}
+.weather-detalis .humidity {
+    display: flex;
+    align-items: center;
+    width: 30%;
+   
+}
+
+
+.wind {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    
+
+}
+.weather-detalis i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+.weather-detalis  span{
+    display: inline-block;
+    font-size: 14px;
+
+}
+.weather-detalis  p {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-2 {
+    width: 504px;
+    height: 280px;
+    background-color:var(--cardColor) ;
+    border: 1px solid var(--BlackPrimery);
 
 }
 .box-3{
-    width: 600px;
+    width: 752px;
     height: 460px;
-    background-color: var(--cardColor);
+    background-color:var(--cardColor) ;
+    border: 1px solid var(--BlackPrimery);
+
+
 
 }
 .box-4{
-    width: 250px;
+    width: 353px;
     height: 460px;
     background-color: var(--cardColor);
+    border: 1px solid var(--BlackPrimery);
 
 }
 
 
-
-
-
-.center_aside{
-    width: 25%;
+.center_aside {
+    width: 250px;
     height: 100%;
     background-color: var(--cardColor);
+    margin: auto;
+    border: 1px solid var(--BlackPrimery);
+
 }
 
+
+
+
+
+
  
+
+
  
- 
- 
- 
+
 
 
 
