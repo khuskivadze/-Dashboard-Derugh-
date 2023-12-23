@@ -19,6 +19,8 @@
     --Danger: #D11A2A;
     --blueBtn : #26C0E2;
     --Primary: #605BFF;
+    --cardColor: #F4F4F4;
+    --spanColor: #858C94;
 }
 
 *{
@@ -28,13 +30,16 @@
     text-decoration: none;
     list-style: none;
 }
-.Home_container{
+.Contianer {
     max-width: 2000px;
-   
     height: auto;
+}
+.Home_container{ 
+    width: 100%;
+    height: 1065px;
     background-color: rgb(255, 255, 255);
     display: flex;
-    align-items: center;
+    
 }
 .left_side {
     width: 327px;
@@ -156,6 +161,244 @@
     box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.67);
 
 }
+.center {
+    width: 1378px;
+    height: 1000px;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.center_top{
+    width: 100%;
+    height: 150px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3.9%;
+     
+}
+.center_top .title{
+    width: 100%;
+    height: 24px;
+    padding-left: 10px;
+   
+}
+.center_top .title p{
+    font-size: 18.5px;
+    color: var(--BlackPrimery);
+    font-family: 'Poppins', sans-serif;
+
+}
+.center_top .title span {
+    text-transform: uppercase;
+    font-size: 18.5px;
+    color: var(--ItemBlue);
+    font-family: 'Poppins', sans-serif;
+
+}
+.center_top .profile {
+    width: 100%;
+    height: 91.89px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+     
+}
+.profile .profile_top {
+    width: 100%;
+    height: 46.89px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile_top .name {
+    width: 150px;
+    height: 25px;
+    
+}
+.profile_top .name  p {
+    font-size: 30px;
+    color: #455A64;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   font-family: 'Poppins', sans-serif;
+
+   gap: 10px;
+} 
+.profile_top .name  span{
+    font-size: 30px;
+    color: var(--BlackPrimery);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.profile_top .search {
+    width: 499px;
+    height: 45px;
+    background-color: #EBF7FF;
+    display: flex;
+    align-items: center;
+    border-radius: 53px;
+    margin-top: 15px;
+
+}
+.profile_top .search  i {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile_top .search  input {
+    width: 450px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+.search input::placeholder{
+    font-size: 15px;
+    color: #A2A4A9;
+}
+
+.center_acount {
+    width: 350px;
+    height: 46.89px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.center_acount .top_btn{
+    width: 176px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    background-color: #6DC2FF;
+    gap: 10px;
+    border: none;
+    border-radius: 53px;
+    text-align: center;
+    padding-left: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+.center_acount .account {
+    width: 240px;
+    height: 46.89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+.center_acount .account  i {
+    font-size: 19px;
+    cursor: pointer;
+}
+.center_acount .account  p{
+    color: #2C2E32;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.profile .profile_bottom {
+    width: 100%;
+    height: 37px;
+   padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.profile .profile_bottom  span{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--spanColor);
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+
+
+
+
+.center_content {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    gap: 10px;
+}
+.center_box {
+    width: 75%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    
+}
+.box-1 {
+    width: 500px;
+    height: 280px;
+    background-color: var(--cardColor);
+}
+
+.box-2 {
+    width: 500px;
+    height: 280px;
+    background-color: var(--cardColor);
+
+}
+.box-3{
+    width: 600px;
+    height: 460px;
+    background-color: var(--cardColor);
+
+}
+.box-4{
+    width: 250px;
+    height: 460px;
+    background-color: var(--cardColor);
+
+}
+
+
+
+
+
+.center_aside{
+    width: 25%;
+    height: 100%;
+    background-color: var(--cardColor);
+}
+
+ 
+ 
+ 
  
  
 
+
+
+
+ 
