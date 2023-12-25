@@ -37,6 +37,7 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
+     
     
 }
 .left_side {
@@ -55,27 +56,22 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    
 }
 .left_logo h1{
     font-size: 32px;
     font-family: 'Poppins', sans-serif;
     color: white;
-    
 }
 .left_logo  img{
     width: 50px;
     height: 50px;
 }
-
 .categories {
     width: 327px;
     height: 312px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 .lists_items {
     width: 327px;
@@ -84,12 +80,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-   
 }
 .active{
     background-color: white;
     width: 327px !important; 
-    
 }
 .active a {
     color: var(--PrimeryBlue) !important;
@@ -97,7 +91,6 @@
 .active i {
     color: var(--Primary) !important;
 }
-
 .list_item  {
     width: 327px;
     height: 40px;
@@ -107,9 +100,6 @@
     transition: all 0.5s ease-in-out;
     cursor: pointer;
     padding: 0 30px;
-    
-    
-   
 }
 .list_item:hover{
     box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.67);
@@ -119,19 +109,16 @@
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-
 }
 .list_item  i {
     color: white;
     font-size: 20px;
-
 }
 .frame {
     width: 261px;
     height: 350px;
     position: relative;
     margin-top: 25%;
-   
 }
 .log_out {
     width: 100%;
@@ -142,47 +129,39 @@
     margin-top: 30%;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
-
 }
 .log_out a {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-
 }
 .log_out i {
     color: white;
     font-size: 20px;
-
 }
 .log_out:hover{
     box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.67);
-
 }
  
 .center {
     width: 1378px;
     height: 968.89px;
-    
     margin: 0 auto;
 }
 .center_top {
     width: 100%;
     height: 197.89px ;
     font-family: 'Poppins', sans-serif;
-    
     display: flex;
     flex-direction: column;
+  
     gap: 20px;
 }
 .center .title  {
     width: 100%;
     height: 24px;
     display: flex;
-  
-  
     align-items: center;
-
 }
 .center .title   p {
     font-size: 16px;
@@ -200,12 +179,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-     
 }
 .profile_top {
     width: 100%;
     height: 46.89px;
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -225,8 +202,6 @@
     align-items: center;
     justify-content: space-around;
     gap: 10px;
-
-
 }
 .profile_top .name  span {
     font-size: 34px;
@@ -235,7 +210,6 @@
     align-items: center;
     justify-content: center;
     color: var(--BlackPrimery);
-
 }
 .search {
     width: 499px;
@@ -243,11 +217,9 @@
     display: flex;
     background-color: #EBF7FF;
     display: flex;
-  
     align-items: center;
     border-radius: 53px;
     gap: 20px;
-     
 }
 .search  i{
     width: 24px;
@@ -300,7 +272,6 @@
     align-items: center;
     gap: 10px;
     color: var(--PrimeryBlue);
-    
 }
 .account i {
     color: var(--spanColor);
@@ -309,29 +280,20 @@
 .account p {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
-
 }
 .profile_bottom {
     width: 100%;
     height: 37px;
-    
-
 }
 .profile_bottom span {
     font-size: 24px;
     color: var(--spanColor);
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
-
-
 }
-
- 
- 
 .center_content {
     width: 100%;
     height: 771px;
-    
     display: flex;
     gap: 10px;
 }
@@ -341,7 +303,6 @@
     display: flex;
     flex-direction: column;
     gap: 31px;
-     
 }
 .center_box .box {
     width: 100%;
@@ -355,7 +316,6 @@
     height: 280px;
     background-color:var(--cardColor) ;
     border: 1px solid var(--spanColor);
-
     display: flex; 
 }
 .welcome {
@@ -371,12 +331,9 @@
     color: var(--BlackPrimery);
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-
     font-weight: 400;
     gap: 10px;
     display: flex;
-
-
 }
 .welcome  h1 span{
     font-size: 29.3px;
@@ -384,36 +341,23 @@
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-
 }
 .welcome  p {
     font-size: 15.65px;
     color: var(--ItemBlue);
     font-family: 'Poppins', sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
+/* weatehr container */
 .container{
     position: relative;
     width: 300px;
     height: 100%;
     background-color: var(--PrimeryBlue);
-
     backdrop-filter: blur(50px);
     border: 2px solid rgba( 255, 255, 225, .2);
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
     font-family: 'Poppins', sans-serif;
-
     color: rgb(255, 255, 255);
     cursor: pointer;
     padding: 10px;
@@ -422,7 +366,6 @@
     position: relative;
     width: 100%;
     height: 40px;
- 
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -437,21 +380,17 @@
     outline: none;
     border-radius: 10px;
     font-size: 15px;
-    
     text-transform: uppercase;
     padding: 0 48px 0 42px;
 }
 .search_box input::placeholder {
     color: rgb(255, 255, 255) ;
     text-transform: capitalize;
-
 }
 .search_box i {
     position: absolute;
     left: 10px;
     font-size: 20px;
-
-
 }
 .search_box button {
     position: absolute;
@@ -470,7 +409,6 @@
     width: 100%;
     text-align: center;
     margin: 2% 35%;
-   
 }
 
 .weather-box img{
@@ -482,7 +420,6 @@
     line-height: 1;
     font-weight: 700;
     margin: 20px 0 6px -20px;
-
 }
 .weather-box .temperature  span{
      position: absolute;
@@ -499,7 +436,6 @@
     bottom: 15px;
     left: 0;
     width: 100%;
-   
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -510,16 +446,11 @@
     display: flex;
     align-items: center;
     width: 30%;
-   
 }
-
-
 .wind {
     display: flex;
     align-items: center;
     width: 50%;
-    
-
 }
 .weather-detalis i {
     font-size: 25px;
@@ -528,31 +459,10 @@
 .weather-detalis  span{
     display: inline-block;
     font-size: 14px;
-
 }
 .weather-detalis  p {
     font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .box-2 {
     width: 504px;
     height: 280px;
@@ -560,7 +470,6 @@
     border: 1px solid var(--spanColor);
     display: flex;
     flex-direction: column;
-
 }
 .box-2 .meetengs_title {
     width: 100%;
@@ -568,17 +477,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     padding: 10px 10px;
     font-family: 'Poppins', sans-serif;
     border-bottom: 1px solid  #ECEDEE;
-
 }
 .box-2 .meetengs_title p {
     font-family: 'Poppins', sans-serif;
     color: var(--BlackPrimery);
     font-size: 23.44px;
-
 }
 .box-2 .meetengs_title i {
     color: var(--PrimeryBlue);
@@ -589,11 +495,9 @@
     align-items: center;
     font-size: 20px;
 }
-
 .meetings_tasks {
     width: 100%;
     height: 230px;
-  
     display: flex;
     flex-direction: column;
      
@@ -639,15 +543,12 @@
     align-items: center;
     justify-content: space-around;
 }
-
 .project_title {
     width: 100%;
     height: 33px;
-  
     display: flex;
     align-items: center;
     border-bottom: 1px solid  #ECEDEE;
-
 }
 .project_title .title {
     font-size: 23.44px;
@@ -655,8 +556,6 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     padding: 15px 15px;
-     
-   
 }
 
 .status {
@@ -669,8 +568,6 @@
     font-weight: 400;
     font-size: 18.65px;
     color: var(--BlackPrimery);
-
-
 }
 .select {
     width: 90px;
@@ -680,13 +577,9 @@
     border-radius: 10px;
     color: var(--BlackPrimery);
 }
-
-
-
 .projects {
     width: 685px;
     height: 377px;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -703,8 +596,6 @@
     padding: 5px 5px;
     display: flex;
     align-items: center;
-
-    
 }
 .project_itme_leader {
     width: 170px;
@@ -718,7 +609,6 @@
     font-size: 18.75px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-
 }
 .cont {
     width: 100%;
@@ -726,8 +616,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-     
 }
 .cont .img  {
     display: flex;
@@ -744,9 +632,7 @@
     letter-spacing: 3px;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-
 }
-
 .cont .text {
     display: flex;
     flex-direction: column;
@@ -756,18 +642,12 @@
     font-family: 'Poppins', sans-serif;
     color: var(--BlackPrimery);
     font-size: 15px;
-
-
 }
 .cont .text span {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     color: var(--ItemBlue);
-
 }
-
-
-
 .project_itme_status{
     width: 200px;
     height: 102px;
@@ -776,7 +656,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
 .project_itme_status .status_btn {
     width: 142px;
@@ -784,13 +663,11 @@
     display: flex;
     gap: 15px;
     align-items: center;
-     
 }
 .project_itme_status .status_btn p{
     font-size: 15px;
     color: var(--BlackPrimery);
     font-family: 'Poppins', sans-serif;
-
 }
 .project_itme_status .status_btn button {
     width: 60px;
@@ -801,11 +678,9 @@
     border: none;
     letter-spacing: 2px;
 }
-
 .btn_active {
     background-color: var(--StatusBack);
     color: var(--StatusColor);
-    
 }
 .btn_high {
     background-color: var(--PriorityBack);
@@ -815,44 +690,190 @@
     background-color: var(--PaymentBack);
     color: var(--PaymentColor);
 }
-
-
-
-
-
-
-
-
 .project_itme_assets{
     width: 272px;
     height: 102px;
     border-right: 2px dotted #A2A4A9;
-    
-
 }
 .dotted{
     position: relative;
     margin-bottom: 14%;
     margin-left: 5%;
-
-     
-
 }
-
-
-
-
-
-
-
-
+.project_itme_assets {
+    width: 170;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.project_itme_assets .assets_title {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    justify-content: space-between;
+}
+.assets_title p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.assets_title .asets_btn {
+    width: 93px;
+    height: 20px;
+    background-color: var(--AssetsBack);
+    color: var(--AssetsColor);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 8px;
+    border: none;
+    border-radius: 28px;
+}
+.asets_text{
+    width: 100%;
+    height: 77px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0px 15px;
+}
 .box-4{
     width: 353px;
     height: 460px;
     background-color: var(--cardColor);
     border: 1px solid var(--BlackPrimery);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.input {
+  width: 350px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+  border-bottom: 1px solid  #ECEDEE;
+  justify-content: space-between;
+   
+}
+.input span{
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 10px;
 
 }
+.input i {
+    width: 60px;
+    height: 60px;
+    color: var(--PrimeryBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.input_add {
+    width: 320px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #A2A4A9;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+.input_add::placeholder {
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+.todo_contianer{
+  width: 315px;
+  height: 340px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.list_contianer {
+    width: 300px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.list_contianer  li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+   
+    
+    height: 40px;
+   
+    font-size: 15px;
+    user-select: none;
+    cursor: pointer;
+    border-bottom: 1px solid  #ECEDEE;
+
+}
+.list_contianer  li p {
+    color: white;
+    padding-left: 20px;
+    position: relative;
+    font-size: 15px;
+}
+.list_contianer li::before {
+    content: '';
+    position: relative;
+    height: 24px;
+    width:24px;
+    background-image: url(/Assets/unchecked.png);
+    background-repeat: repeat ;
+    background-size: cover;
+}
+
+ 
+.list_contianer  li.cheked {
+    color: #555;
+    text-decoration: line-through;
+}
+.list_contianer  li.cheked::before{
+    height: 20px;
+    width:20px;
+    background-image: url(/Assets/Vector.png);
+    background-repeat: repeat ;
+    background-size: cover;
+    
+    
+}
+.list_contianer  li span {
+    position: relative;
+    left: 70%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--Danger)
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
 
 
 .center_aside {
