@@ -1,17 +1,19 @@
  
-
+//ამინდის კონტეინერის სელექტორები
 const container = document.querySelector('.container');
 const search = document.querySelector('.search_box button');
 const weatherBox = document.querySelector('.weather-box');
 const weatherDetails = document.querySelector('.weather-detalis');
 const display =  document.querySelector('.outdor')
  
-
+//სერჩ იკონზე ვამაგრებთ მომსმესნ და ვიწყებთ სერვერიდან ინფორმაციის მოფეჩვას
 
 search.addEventListener('click', () => {
+    // აიპი მისამართის პირადი პაროლი
     const APIKey = 'bfe989b95711f8a57ff03a49ce8de64e';
+    // კლიკზე ჩაწერლილი ქალაქის სახელის მოძიება და მნიშვნელობის გამოტანა
     const city = document.querySelector('.search_box  input').value;
-    console.log(search)
+     
 
     if (city == ''){
         return;

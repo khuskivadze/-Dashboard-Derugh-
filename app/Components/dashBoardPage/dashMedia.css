@@ -1,12 +1,23 @@
 @media (max-width: 1470px) {
     
     .Home_container{
-       
-        width: 100%;
+       width: 100%;
+       height: 1800px;
+       display: flex !important; 
+       overflow: hidden;
+       align-items: center;
+        
+
         
     }
     .left_side {
         width: 300px;
+        height: 100%;
+        display: flex;
+   
+        flex-direction: column;
+         
+        align-items: center;
     }
     .left_logo  {
         width: 100%;
@@ -15,6 +26,17 @@
     }
     .categories {
         width: 300px;
+        height: 500px;
+    }
+    .frame  {
+        width: 261px;
+        height: 400px;
+        position: absolute;
+        
+        margin-top: 85%;
+    
+       
+       
     }
     .active{
         width: 100% !important;
@@ -24,17 +46,53 @@
         width: 100%;
     }
     .center {
-        width: 100%;
-        overflow: hidden;
+        width: 100% !important;
+        height: 100% !important;
+       margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
     .center_top {
         width: 95%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         height: 155px ;
     }
     .center_content {
         width: 95%;
-        margin: 0 auto;
+        height: 100%;
+        /* margin: 0 auto; */
+    }
+    .center_box {
+        display: flex;
+        flex-direction: column;
+        gap:49px !important;
+    }
+    
+    .center_box .box  {
+        display: flex;
+        flex-direction: column;
+    }
+    .center_box .box  .boxs {
+        width: 800px;
+    }
+
+    .box-1 .welcome  {
+        width: 400px;
+    }
+    .box-1 .container  {
+        width: 400px;
+    }
+    .weather-box {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+       
+    } 
+    .center_aside {
+        width: 350px;
+        height: 100%;
     }
     
      

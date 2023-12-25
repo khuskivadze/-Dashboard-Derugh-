@@ -354,7 +354,8 @@
     width: 600px;
     height: 280px;
     background-color:var(--cardColor) ;
-    border: 1px solid var(--BlackPrimery);
+    border: 1px solid var(--spanColor);
+
     display: flex; 
 }
 .welcome {
@@ -405,14 +406,16 @@
     position: relative;
     width: 300px;
     height: 100%;
-    background-color: rgba( 12, 153, 225, .4);
-    backdrop-filter: blur(30px);
+    background-color: var(--PrimeryBlue);
+
+    backdrop-filter: blur(50px);
     border: 2px solid rgba( 255, 255, 225, .2);
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
     font-family: 'Poppins', sans-serif;
 
     color: rgb(255, 255, 255);
+    cursor: pointer;
     padding: 10px;
 }
 .search_box{
@@ -554,18 +557,295 @@
     width: 504px;
     height: 280px;
     background-color:var(--cardColor) ;
-    border: 1px solid var(--BlackPrimery);
+    border: 1px solid var(--spanColor);
+    display: flex;
+    flex-direction: column;
 
 }
+.box-2 .meetengs_title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px 10px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid  #ECEDEE;
+
+}
+.box-2 .meetengs_title p {
+    font-family: 'Poppins', sans-serif;
+    color: var(--BlackPrimery);
+    font-size: 23.44px;
+
+}
+.box-2 .meetengs_title i {
+    color: var(--PrimeryBlue);
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.meetings_tasks {
+    width: 100%;
+    height: 230px;
+  
+    display: flex;
+    flex-direction: column;
+     
+}
+.meetings_tasks div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid  #ECEDEE;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+}
+.meetings_tasks div .task_item{
+    display: flex;
+    gap: 5px;
+}
+.meetings_tasks div .task_item i {
+    color: var(--PrimeryBlue);
+    font-size: 20px;
+}
+.meetings_tasks div .task_item p {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: var(--BlackPrimery);
+}
+.meetings_tasks div .task_item span{
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--spanColor);
+}
+
 .box-3{
     width: 752px;
     height: 460px;
     background-color:var(--cardColor) ;
     border: 1px solid var(--BlackPrimery);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.project_title {
+    width: 100%;
+    height: 33px;
+  
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid  #ECEDEE;
+
+}
+.project_title .title {
+    font-size: 23.44px;
+    color: var(--BlackPrimery);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 15px 15px;
+     
+   
+}
+
+.status {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.status p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18.65px;
+    color: var(--BlackPrimery);
 
 
 }
+.select {
+    width: 90px;
+    height: 33px;
+    border: 1px solid  #ECEDEE;
+    background: none;
+    border-radius: 10px;
+    color: var(--BlackPrimery);
+}
+
+
+
+.projects {
+    width: 685px;
+    height: 377px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projects .project_content {
+    width: 95%;
+    height: 149px;
+    border: 1px solid  #ECEDEE;
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px 7px rgba(236,237,238,0.93);
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+
+    
+}
+.project_itme_leader {
+    width: 170px;
+    height: 102px;
+    border-right: 2px dotted #A2A4A9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project_itme_leader .leader_titile{
+    font-size: 18.75px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+
+}
+.cont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+     
+}
+.cont .img  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont .img  img{
+    width: 54px;
+    height: 54px;
+}
+.cont .img span{
+    font-size: 8px;
+    color: var(--BlackPrimery);
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.cont .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cont .text  p {
+    font-family: 'Poppins', sans-serif;
+    color: var(--BlackPrimery);
+    font-size: 15px;
+
+
+}
+.cont .text span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: var(--ItemBlue);
+
+}
+
+
+
+.project_itme_status{
+    width: 200px;
+    height: 102px;
+    border-right: 2px dotted #A2A4A9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.project_itme_status .status_btn {
+    width: 142px;
+    height: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+     
+}
+.project_itme_status .status_btn p{
+    font-size: 15px;
+    color: var(--BlackPrimery);
+    font-family: 'Poppins', sans-serif;
+
+}
+.project_itme_status .status_btn button {
+    width: 60px;
+    height: 20px;
+    font-size: 8px;
+    text-transform: uppercase;
+    border-radius: 28px;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.btn_active {
+    background-color: var(--StatusBack);
+    color: var(--StatusColor);
+    
+}
+.btn_high {
+    background-color: var(--PriorityBack);
+    color: var(--PriorityColor);
+}
+.btn_done {
+    background-color: var(--PaymentBack);
+    color: var(--PaymentColor);
+}
+
+
+
+
+
+
+
+
+.project_itme_assets{
+    width: 272px;
+    height: 102px;
+    border-right: 2px dotted #A2A4A9;
+    
+
+}
+.dotted{
+    position: relative;
+    margin-bottom: 14%;
+    margin-left: 5%;
+
+     
+
+}
+
+
+
+
+
+
+
+
 .box-4{
     width: 353px;
     height: 460px;
