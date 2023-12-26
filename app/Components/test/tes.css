@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toDo {
+    width: 700px;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    flex-direction: column;
+    margin-top: 10%;
+     
+}
+.title  {
+    width: 550px;
+    height: 50px;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.title h1 {
+    font-size: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+.title  i {
+    width: 50px;
+    height: 50px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(11, 55, 51);
+    cursor: pointer;
+}
+.inputs {
+    width: 100%;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.inputs {
+    width: 600px;
+    height: 50px;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 20px;
+  
+
+}
+.inputs  input::placeholder {
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.tasks {
+    width: 600px;
+    height: 400px;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.task {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+     
+}
+.trash {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+
+     
+}
+#check {
+    font-size: 20px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    color: blue;
+}
+.task a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: sans-serif;
+    color: black;
+}

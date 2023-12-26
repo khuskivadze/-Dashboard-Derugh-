@@ -1,4 +1,5 @@
  
+ 
 //ამინდის კონტეინერის სელექტორები
 const container = document.querySelector('.container');
 const search = document.querySelector('.search_box button');
@@ -68,24 +69,73 @@ search.addEventListener('click', () => {
 
 
 // toDO
+ 
 
-const inputBox = document.querySelector('.input_add');
-const listContianer = document.querySelector('.list_contianer ');
-const addBtn =  document.getElementById('addBtn');
 
-function addTask () {
-  if(inputBox.value === ''){
-    alert(' whrite something')
-  }else{
-        let li = document.createElement("li" ) 
-        li.innerHTML = inputBox.value ;
-        listContianer.appendChild(li);
-        let span = document.createElement("span")
-        span.innerHTML = '<i class="bi bi-trash"></i>'
-        li.appendChild(span)
-    }
-    inputBox.value = ""
+const addTaskBtsn = document.getElementById('addBtn');
+const inputBox =  document.querySelector('.inputs');
+const tasks = document.querySelector('.tasks')
+const task = document.querySelector('.task')
 
+ 
+ 
+
+function addTask() {
+ 
+
+    if(inputBox.value === ''){
+        alert('You must add new task !!!')
+    } 
+    
+    else   {
+        let newTask = document.createElement('li');
+        newTask.classList.add('task');
+        
+
+         
+        newTask.innerHTML = `
+           <li class="task">
+               <i class="bi bi-check-circle check  check_btn" id="check"></i>
+
+                <p href="#" class="pharahrap"> ${inputBox.value}</p>
+                <i class="bi bi-trash2-fill trash" id="trash"></i>
+            </li>
+        `
+        newTask.addEventListener('click', () => {
+            const pharahrap = document.querySelector('.pharahrap');
+            const check = document.querySelector ('.check_btn');
+            pharahrap.style.color = 'green';
+            pharahrap.style.textDecoration = 'line-through';
+            check.style.color = 'green';
+            
+
+        });
+         
+        
+     
+      
+ 
+
+
+
+        tasks.appendChild(newTask)
+        inputBox.value = ''
+
+    } 
+    
 }
+addTaskBtsn.addEventListener('click', addTask)
 
-addBtn.addEventListener('click', addTask)
+ 
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

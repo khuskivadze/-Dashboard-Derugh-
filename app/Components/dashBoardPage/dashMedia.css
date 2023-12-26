@@ -94,6 +94,23 @@
         width: 350px;
         height: 100%;
     }
+
+    .input {
+        width: 650px;
+    }
+    .input_add {
+        width: 650px;
+    }
+    .todo_contianer {
+        width: 650px;
+    }
+    .list_contianer  {
+        width: 650px;
+         
+    }
+    .list_contianer  li span  {
+        left: 80%;
+    }
     
      
     

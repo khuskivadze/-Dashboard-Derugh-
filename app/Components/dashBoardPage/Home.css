@@ -747,121 +747,134 @@
     align-items: center;
     gap: 5px;
 }
-.input {
-  width: 350px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  padding: 5px 5px;
-  border-bottom: 1px solid  #ECEDEE;
-  justify-content: space-between;
-   
-}
-.input span{
-    font-size: 23px;
-    font-family: 'Poppins', sans-serif;
-    padding: 10px 10px;
-
-}
-.input i {
-    width: 60px;
-    height: 60px;
-    color: var(--PrimeryBlue);
+.toDo {
+    width: 100%;
+    height: 460px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 24px;
-    cursor: pointer;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+     
 }
-
-.input_add {
-    width: 320px;
-    height: 50px;
-    background-color: transparent;
-    border: 2px solid #A2A4A9;
-    border-radius: 10px;
-    margin: 0 auto;
-
-}
-.input_add::placeholder {
-    font-size: 15px;
-    letter-spacing: 2px;
-    padding-left: 10px;
-}
-
-.todo_contianer{
-  width: 315px;
-  height: 340px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-.list_contianer {
-    width: 300px;
-    height: 320px;
+.toDo .top {
+    width: 100%;
+    height: 100px;
+     
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
     
 }
-.list_contianer  li {
-    list-style: none;
+.title  {
+    width: 350px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.title h1 {
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.toDo .top .input_cont{
+    width: 100%;
+    height: 60px;
     display: flex;
     align-items: center;
    
-    
+    margin: 0 auto;
+}
+.toDo .top .input_cont .inputs {
+    width: 100%;
     height: 40px;
-   
-    font-size: 15px;
-    user-select: none;
-    cursor: pointer;
-    border-bottom: 1px solid  #ECEDEE;
-
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--ItemBlue);
 }
-.list_contianer  li p {
-    color: white;
-    padding-left: 20px;
-    position: relative;
-    font-size: 15px;
-}
-.list_contianer li::before {
-    content: '';
-    position: relative;
-    height: 24px;
-    width:24px;
-    background-image: url(/Assets/unchecked.png);
-    background-repeat: repeat ;
-    background-size: cover;
-}
-
  
-.list_contianer  li.cheked {
-    color: #555;
-    text-decoration: line-through;
-}
-.list_contianer  li.cheked::before{
-    height: 20px;
-    width:20px;
-    background-image: url(/Assets/Vector.png);
-    background-repeat: repeat ;
-    background-size: cover;
-    
-    
-}
-.list_contianer  li span {
-    position: relative;
-    left: 70%;
+.input_cont .addBtn {
+    position: absolute;
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    right: 0;
+    font-size: 24px;
+    color: var(--PrimeryBlue);
+    cursor: pointer;
+}
+
+
+
+
+.inputs::placeholder {
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.tasks {
+    width: 100%;
+    height: 400px;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.task {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid  #ECEDEE;
+    
+}
+.trash {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     color: var(--Danger);
     font-size: 20px;
-    color: var(--Danger)
+    cursor: pointer;
+
+     
+}
+.task  .check {
+    font-size: 20px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    color: var(--spanColor);
+    cursor: pointer;
+     
 }
  
+.task p{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: sans-serif;
+    color: black;
+    cursor: pointer;
+    
+    
+    
+}
  
  
  
