@@ -51,83 +51,74 @@ search.addEventListener('click', () => {
     });
 })
 
- const allTasks = document.querySelectorAll('.same_Clase');
- 
+const allTasks = document.querySelectorAll('.same_Clase');
 
-
- 
-allTasks.forEach(box => {
-    
-    box.addEventListener('click', (e) => {
-     
-        // box.style. textDecoration = 'line-through';
-        box.style. textDecoration = 'line-through';
-        // box.style.Color = 'green'
-        
+allTasks.forEach(box => {  
+   box.addEventListener('click', (e) => {
+        box.style.textDecoration = 'line-through';
+        box.style.color = 'green'
+         
     })
-     
- 
-    
-
 });
 
- 
 
- 
+const allCheck = document.querySelectorAll('.task_check');
 
+allCheck.forEach(check => {
+    check.addEventListener('click', (e) => {
+        check.style.color = 'green'
+    })
+})
  
- 
- 
-
-
 // toDO
-// const addTaskBtsn = document.getElementById('addBtn');
-// const inputBox =  document.querySelector('.inputs');
-// const tasks = document.querySelector('.tasks')
-// const task = document.querySelector('.task')
+const addTaskBtsn = document.getElementById('addBtn');
+const inputBox =  document.querySelector('.inputs');
+const tasks = document.querySelector('.tasks_container')
+const task = document.querySelector('.same_Clase')
 
-// function addTask() {
-//    if(inputBox.value === ''){
-//         alert('You must add new task !!!')
-//     } 
-//    else   {
-//         let newTask = document.createElement('li');
-//         newTask.classList.add('task');
-//         newTask.innerHTML = `
-//             <li class="task">
-//                 <div class="check">
-//                  <i class="bi bi-check-circle" id="check"></i>
-//                 </div>
-//                 <div>
-//                  <p href="#"  >This is an example about my task</p>
-//                 </div>
-//                 <div class="trash_btn">
-//                  <i class="bi bi-trash2-fill  " id="trash"></i>
-//                 </div>
-//             </li>
-//         `
-//         newTask.addEventListener('click', () => {
-//             const pharahrap = document.querySelector('.pharahrap');
-//             const check = document.querySelector ('.check_btn');
-//             pharahrap.style.color = 'green';
-//             pharahrap.style.textDecoration = 'line-through';
-//             check.style.color = 'green';
-//         });
-         
-//         tasks.appendChild(newTask)
-//         inputBox.value = ''
-//     } 
+function addTask() {
+   if(inputBox.value === ''){
+        alert('You must add new task !!!')
+    } 
+   else   {
+        let newTask = document.createElement('li');
+        newTask.classList.add('task_box');
+        
+
+        newTask.innerHTML = `
+
+        <li class="task_box same_Clase" id="box1">
+             <i class="bi bi-check-circle-fill task_check" ></i>
+             <p id="task_text">${inputBox.value}</p>
+            <i class="bi bi-trash3 sameTrash" id="task_trash1"></i>
+        </li>
+
+        ` 
+        newTask.addEventListener('click', () => {
+            newTask.style.textDecoration = 'line-through';
+            
+            newTask.style.color = 'green'
+        })
+        
+
+       
+       
+
+        tasks.appendChild(newTask)
+        inputBox.value = ''
+    } 
+
+    
+     
+     
+     
 
 
 
         
-// }
-// addTaskBtsn.addEventListener('click', addTask)
+}
+addTaskBtsn.addEventListener('click', addTask)
 
- 
- 
-
- 
  
  
  

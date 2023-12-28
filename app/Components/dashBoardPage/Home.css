@@ -21,6 +21,9 @@
     --Primary: #605BFF;
     --cardColor: #F4F4F4;
     --spanColor: #858C94;
+    --box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.67);
+    --transition: all 0.5s ease-in-out;
+    
 }
 
 *{
@@ -37,15 +40,12 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-     
-    
 }
 .left_side {
     width: 327px;
     height: 1065px;
     background-color: var(--PrimeryBlue);
     display: flex;
-   
     flex-direction: column;
     align-items: center;
 }
@@ -235,6 +235,7 @@
     background: transparent;
     border: none;
     border-radius: 53px;
+    
 }
 .center_acount {
     width: 390.96px;
@@ -254,6 +255,11 @@
     align-items: center;
     gap: 15px;
     border: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.center_acount .top_btn:hover{
+    box-shadow: var(--box-shadow);
 }
 .center_acount .top_btn  i  {
     font-size: 20px;
@@ -511,10 +517,15 @@
     justify-content: center;
     align-items: center;
     padding: 5px 5px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.meetings_tasks div:hover{
+    box-shadow: var(--box-shadow);
 }
 .meetings_tasks div .task_item{
     display: flex;
-    gap: 5px;
+    
 }
 .meetings_tasks div .task_item i {
     color: var(--PrimeryBlue);
@@ -838,16 +849,19 @@
     align-items: center;
     justify-content: space-around;
     border-bottom: 1px solid  #ECEDEE;
-
+    cursor: pointer;
+  
 }
+ 
 .task_check {
-    font-size: 24px;
-    color: var(--spanColor);
+    font-size: 17px;
+    
     
 }
 .sameTrash {
-    font-size: 24px;
+    font-size: 17px;
     color: var(--PriorityColor);
+ 
 }
  
  
