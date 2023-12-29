@@ -23,6 +23,8 @@
     --spanColor: #858C94;
     --box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.67);
     --transition: all 0.5s ease-in-out;
+    --border-bottom: 1px solid  #c7c8c9;
+    
     
 }
 
@@ -485,7 +487,7 @@
     align-items: center;
     padding: 10px 10px;
     font-family: 'Poppins', sans-serif;
-    border-bottom: 1px solid  #ECEDEE;
+    border-bottom: var(--border-bottom)
 }
 .box-2 .meetengs_title p {
     font-family: 'Poppins', sans-serif;
@@ -513,7 +515,7 @@
     height: 50px;
     display: flex;
     font-family: 'Poppins', sans-serif;
-    border-bottom: 1px solid  #ECEDEE;
+    border-bottom: var(--border-bottom);
     justify-content: center;
     align-items: center;
     padding: 5px 5px;
@@ -848,7 +850,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1px solid  #ECEDEE;
+    border-bottom:  var(--border-bottom);
     cursor: pointer;
   
 }
@@ -864,16 +866,6 @@
  
 }
  
- 
- 
- 
-
-
-
-
-
-
-
 .center_aside {
     width: 250px;
     height: 100%;
@@ -884,12 +876,179 @@
 }
 
 
+.center_aside_title {
+    width: 100%;
+    height: 50px;
+  
+    display: flex;
+    align-items: center;
+    border-bottom: var(--border-bottom);
+}
+
+.center_aside_title h2{
+    font-size: 16.82px;
+    color: #2C2E32;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 10px 10px;
+    
+
+}
+.todo_cards {
+    width: 100%;
+    height: 721px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.todo_cards .card {
+    width: 216.16px;
+    height: 164.24px;
+    border-bottom: var(--border-bottom);
+}
+
+.card .card_top{
+  width: 100%;
+  height: 69px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_top .top_info {
+    width: 100%;
+    height: 34px;
+    display: flex;
+    align-items: center;
+   
+    
+    
+}
+.card_top .top_info  h2{
+    font-size: 11.22px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #030229;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+
+}
+.card_top .top_info  .bell {
+   width: 17px;
+   height: 17px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--Danger);
+   font-size: 11px;
+   color: white;
+   border-radius: 50px;
+   margin-left: 10px;
+}
+.card_top .dots {
+    width: 20px;
+    height: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    color: var(--spanColor);
+ 
+}
+
+.card_top  .buttons {
+    width: 100%;
+    height: 35px;
+    
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 5px;
+}
+.card_top  .buttons button {
+    width: 40.03px;
+    height: 18px;
+    font-size: 6.8px;
+    border: none;
+    border-radius: 12.75px;
+    color: white;
+
+}
+.card_top  .buttons button:first-child {
+    background-color: var(--lightRed);
+    
+}
+.card_top  .buttons button:last-child {
+    background-color: var(--Yellow);
+    color: var(--BlackPrimery);
+    
+}
 
 
+.card .card_bottom{
+  width: 100%;
+  height: 95px;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+}
+.card .card_bottom  .card_text {
+    width: 100%;
+    height: 30px;
+    font-size: 9.61px;
+    font-weight: normal;
+    color: var(--BlackPrimery);
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+ 
+
+
+}
+.card_bottom .card_content{
+    width: 100%;
+    height: 65px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.card_content .users {
+    width: 130px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+ 
+.card_content .users img {
+    padding-top: 5px;
+}
+ 
+ 
 
 
  
-
+.card_content .feedback {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    gap: 4px;
+    color: var(--spanColor);
+}
 
  
 
