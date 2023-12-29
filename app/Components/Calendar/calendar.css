@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+:root {
+    --Grey:#84878B;
+    --BlackPrimery : #2C2E32;
+    --PrimeryBlue: #0C99FF;
+    --ItemBlue: #01517E;
+    --StatusBack :#DBF3E6;
+    --StatusColor: #6ECF9D;
+    --DarkGrenn:#3E875E;
+    --PriorityBack : #FFCCCC;
+    --PriorityColor: #B82F26;
+    --PaymentBack :#D7F0FF;
+    --PaymentColor:#2695B8;
+    --AssetsBack:#FFF4CC;
+    --AssetsColor :#B6900A;
+    --lightRed: #FF6A77;
+    --Yellow: #FFD66B;
+    --Orange:#FF8F6B;
+    --Danger: #D11A2A;
+    --blueBtn : #6DC2FF;
+    --Primary: #605BFF;
+    --cardColor: #F4F4F4;
+    --spanColor: #858C94;
+    --box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.67);
+    --transition: all 0.5s ease-in-out;
+    --border-bottom: 1px solid  #c7c8c9;
+    --font-family: 'Nunito', sans-serif;
+    
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+ 
+.Home_container{ 
+    max-width: 2000px;  
+    height: 1065px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.left_side {
+    width: 327px;
+    height: 1065px;
+    background-color: var(--PrimeryBlue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left_logo {
+    width: 191px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.left_logo h1{
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.left_logo  img{
+    width: 50px;
+    height: 50px;
+}
+.categories {
+    width: 327px;
+    height: 312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lists_items {
+    width: 327px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.active{
+    background-color: white;
+    width: 327px !important; 
+}
+.active a {
+    color: var(--PrimeryBlue) !important;
+}
+.active i {
+    color: var(--Primary) !important;
+}
+.list_item  {
+    width: 327px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    padding: 0 30px;
+}
+.list_item:hover{
+    box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.67);
+
+}
+.list_item  a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.list_item  i {
+    color: white;
+    font-size: 20px;
+}
+.frame {
+    width: 261px;
+    height: 350px;
+    position: relative;
+    margin-top: 25%;
+}
+.log_out {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30%;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.log_out a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.log_out i {
+    color: white;
+    font-size: 20px;
+}
+.log_out:hover{
+    box-shadow: -1px 3px 10px -4px rgba(0,0,0,0.67);
+}
+ 
+.center {
+    width: 1500px;
+    height: 968.89px;
+    margin: 0 auto;
+    
+}
+.center_top{
+    width: 100%;
+    height: 150px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+ 
+  
+    gap: 20px;
+}
+.center  .center_top_title  {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.center .center_top_title  p {
+    font-size: 16px;
+    color: var(--BlackPrimery);
+    font-family: 'Poppins', sans-serif;
+}
+.center_top_title span{
+    font-size: 16px;
+    color: var(--ItemBlue);
+   
+    font-family: 'Poppins', sans-serif;
+}
+.profile {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.profile_top {
+    width: 100%;
+    height: 46.89px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile_top .name {
+    width: 150px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile_top .name  p {
+    font-size: 34px;
+    color: var(--spanColor);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.profile_top .name  span {
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--BlackPrimery);
+}
+.search {
+    width: 499px;
+    height: 45px;
+    display: flex;
+    background-color: #EBF7FF;
+    display: flex;
+    align-items: center;
+    border-radius: 53px;
+    gap: 20px;
+}
+.search  i{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.search  input {
+    width: 475px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border-radius: 53px;
+    
+}
+.center_acount {
+    width: 390.96px;
+    height: 46.89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.center_acount .top_btn {
+    width: 176px;
+    height: 45px;
+    background-color: var(--blueBtn);
+    border-radius: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.center_acount .top_btn:hover{
+    box-shadow: var(--box-shadow);
+}
+.center_acount .top_btn  i  {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.center_acount .top_btn span{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+.account{
+    width: 183.96px;
+    height: 46,89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--PrimeryBlue);
+}
+.account i {
+    color: var(--spanColor);
+    font-size: 20px;
+}
+.account p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.profile_bottom {
+    width: 100%;
+    height: 37px;
+}
+.profile_bottom span {
+    font-size: 24px;
+    color: var(--spanColor);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.center_content {
+    width: 100%;
+    height: 818.79px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+    
+    
+    
+}
+.calendaer_title {
+    width: 1055.32px;
+    height: 36.42px;
+     
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+    
+}
+.calendar_heading {
+    width: 250px;
+    height: 100%;
+   
+    font-size: 21.85px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--BlackPrimery);
+    display: flex;
+    align-items: center;
+    margin-top: 1.5%;
+    
+}
+.calendarBtn  {
+    width: 400px;
+   
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 1.5%;
+
+   
+}
+.calendarBtn button {
+    width: 74.66px;
+    height: 36.42px;
+    background-color:var(--PaymentBack) ;
+    font-family: var(--font-family);
+    color: #2C2E32;
+    border: none;
+    border-radius: 9.1px;
+    transition: var(--transition);
+    cursor: pointer;
+    
+}
+
+.calendarBtn button:hover{
+    background: none;
+    border: 1px solid var(--spanColor);
+    
+}
+.calendarBtn button:active{
+    background-color: var(--DarkGrenn);
+    color: rgb(255, 255, 255);
+}
+.calendarBtn .primery{
+    background-color: var(--PrimeryBlue);
+    color: rgb(255, 255, 255);
+}
+.calendarBtn .primery:hover{
+    background-color: none;
+    color: var(--BlackPrimery);
+    border: 1px solid var(--spanColor);
+
+}
+.calendar_Container {
+    width: 1500px;
+    height: 782.37px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+
+}
+ 
+.calendar_Container .calendar_box1{
+    width: 250px;
+    height: 782.37px;
+    background-color: var(--cardColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.calendar_box1 .add_shortCut {
+   width: 200px;
+   height: 45px;
+   background-color: #01517E;
+}
+.calendar_box1 .calendar_icone {
+    width: 200px;
+    height: 205px;
+    background-color: teal;
+}
+.calendar_box1 .calendar_people{
+    width: 200px;
+    height: 237.33px;
+    background-color: rgb(108, 179, 179);
+}
+.calendar_box1 .calendar_user{
+    width: 200px;
+    height: 45px;
+    background-color: rgb(0, 219, 219);
+}
+
+
+
+
+
+
+.calendar_Container .calendar_box2 {
+    width: 850px;
+    height: 782.37px;
+    background-color: var(--cardColor);
+}
+.calendar_Container .calendar_box3 {
+    width: 350px;
+    height: 782.37px;
+    background-color: var(--cardColor);
+}
